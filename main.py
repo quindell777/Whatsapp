@@ -40,4 +40,4 @@ def get_openai_response(prompt):
 
 if __name__ == "__main__":
     # Rode em modo debug (pode ajustar a porta se quiser)
-    app.run(debug=True, port=5000)
+    app.run(host="0.0.0.0", debug=True, port=5000)
